@@ -1,14 +1,14 @@
 {
-    "name": "view-koa",
+    "name": "logger",
     "version": "1.0.0",
-    "description": "hello example with vue",
+    "description": "Log example",
     "main": "app.js",
     "scripts": {
-        "start": "node --use_strict app.js"
+        "start": "node app.js"
     },
     "keywords": [
-        "vue",
-        "mvvm"
+        "log",
+        "winston"
     ],
     "author": "Michael Liao",
     "license": "Apache-2.0",
@@ -17,8 +17,6 @@
         "url": "https://github.com/michaelliao/learn-javascript.git"
     },
     "dependencies": {
-        "koa": "2.0.0",
-        "mime": "1.3.4",
-        "mz": "2.4.0"
+        "winston": "2.3.1"
     }
 }

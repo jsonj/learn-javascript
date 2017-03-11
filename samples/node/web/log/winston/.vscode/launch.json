@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Test",
+            "name": "Start",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/node_modules/mocha/bin/mocha",
+            "program": "${workspaceRoot}/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -15,7 +15,7 @@
                 "--nolazy", "--use_strict"
             ],
             "env": {
-                "NODE_ENV": "test"
+                "NODE_ENV": "development"
             },
             "externalConsole": false,
             "sourceMaps": false,
